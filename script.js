@@ -1,5 +1,5 @@
-    getRandomCityName()
-    async function getRandomCityName(){
+
+    async function getWeatherdata(){
        
             let data=await fetch("https://restcountries.com/v2/all")
             let res=await data.json()
